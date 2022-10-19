@@ -1,0 +1,262 @@
+/* Sections */
+
+body {
+    margin: 0;
+} 
+
+
+.main-container {
+    width: 600px;
+    margin: auto;
+    background-color: #fff;
+    border: 0.5px solid #bbb
+}
+
+header {
+    /* background-image: url("https://trinesmatblogg.no/app/uploads/2020/04/IMG_9464.jpg");
+    background-size: cover;
+    background-position: center; */
+    background-color: antiquewhite;
+    height: 167px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.contents {
+    padding: 67px 46px 46px 46px;
+}
+
+.menu-item-content {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item-text-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; // WHY DO I HAVE TO SET THIS? Or is there a better way to do it? I thought space-between would be enough. I didn't have to do it for .order-product below
+}
+
+.menu-item-text {
+    margin-left: 31px;
+}
+
+.order-title {
+    text-align: center;
+}
+
+.order-list {
+    margin-top: 65px;
+}
+
+.order-product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.order-product-left {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-btn {
+    display: flex;
+    margin-right: 10px;
+    border: 2px solid #bbb;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.quantity {
+    margin-right: 7px;
+}
+
+.dropdown-arrow {
+    width: 10px;
+    object-fit: contain;
+}
+
+.quantity-btns {
+    display: none;
+    align-items: center;
+    margin-right: 10px;
+    box-shadow: 0 0 5px #77dd77;
+    padding: 2px 5px;
+}
+
+.quantity-modify {
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.vertical-divider {
+    color: gray;
+}
+
+.quantity-modify:hover,
+.quantity-modify:focus {
+    color: blue;
+    cursor: pointer;
+}
+
+.order-btn {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+    margin-top: 55px;
+    border-radius: 5px;
+    background-color: #16DB99;
+    color: white;
+}
+
+.pay-btn {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto auto auto;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.payment-form {
+    display: display;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 500px;
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 50px 2px #999;
+    background-color: whitesmoke;
+    color: black;
+    z-index: 1000;
+}
+
+.overlay {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 999;
+}
+
+.success {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ECFDF5;
+    font-weight: bolder;
+}
+
+/* Text */
+
+p {
+    margin: 0px auto 0px auto;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.subtitle {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.subtitle-highlight {
+    font-family: 'Lobster', cursive;
+}
+
+.menu-item-text {
+    
+}
+
+.title-text {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 9px;
+}
+
+.menu-item-ingredients {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.price-text {
+    font-weight: bold;
+}
+
+.form-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* Images */
+
+.header-logo {
+    max-width: 200px;
+}
+
+.menu-item-img {
+    max-height: 89px;
+}
+
+.temp-plus {
+    width: 50px;
+    opacity: 40%;
+    cursor: pointer;
+}
+
+.temp-plus:hover,
+.temp-plus:focus {
+    opacity: 80%;
+}
+
+.temp-plus:active {
+    border-radius: 50%;
+    box-shadow: 0 0 10px grey;
+}
+
+/* Other */
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 0.5px solid #bbb;
+}
+
+#order-section hr {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+}
+
+.form-input {
+    padding: 20px 0px;
+    text-indent: 20px;
+    display: flex;
+    margin: 20px auto auto auto;
+    width: 80%;
+}
+
+/* i {
+    color: #3C3C3C;
+    font-size: 20px;
+    cursor: pointer; 
+} */
